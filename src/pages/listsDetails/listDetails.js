@@ -13,6 +13,7 @@ export default function ListDetails () {
 
   useEffect(() => {
     getData()
+    // eslint-disable-next-line
   }, [id])
 
   if (!list) return <h1>Loading...</h1>
